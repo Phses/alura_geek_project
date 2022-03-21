@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./geek_images/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/7c08d8d5b2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>AluraGeek | Adicionar Produto</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav id="header-nav">
+          <div class="container-flex">
+            <a href="index.html">
+              <div class="logo">
+                <img class="logo-icon" src="./geek_images/Logo.svg" />
+                <img src="./geek_images/Alura.png" />
+                <img src="./geek_images/Geek.png" />
+              </div>
+            </a>
+            <div class="search-bar">
+              <input type="text" placeholder="O que deseja encontrar?" />
+              <button type="submit">
+                <img src="./geek_images/Lupa.svg" />
+              </button>
+            </div>
+            <div class="login">
+              <a class="btn bg-light" href="login_page.html">Login</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="add-product">
+        <div class="container">
+          <div class="container-flex">
+            <h2>Adicionar novo produto</h2>
+            <form class="form-control">
+              <div class="input-files">
+                <div class="box-file">
+                  <input
+                    type="file"
+                    id="img-drag"
+                    accept="image/png, image/jpeg"
+                  />
+                  <label for="img-drag"
+                    ><img src="geek_images/img_add.png" />Arraste para adicionar
+                    uma imagem para o produto
+                  </label>
+                </div>
+                <p>ou</p>
+                <label for="img-upload" class="btn bg-light"
+                  >Procure no seu computador</label
+                >
+                <input
+                  type="file"
+                  id="img-upload"
+                  class="btn bg-light"
+                  accept="image/png, image/jpeg"
+                />
+              </div>
+              <div class="name">
+                <label for="product-name">Nome do produto</label>
+                <input
+                  type="text"
+                  id="product-name"
+                  placeholder="Produto XYZ"
+                />
+              </div>
+              <div class="name">
+                <label for="product-price">Preço do produto</label>
+                <input type="text" id="product-price" placeholder="R$ 60,00" />
+              </div>
+              <input
+                type="text"
+                class="message"
+                placeholder="Descrição do produto"
+              />
+              <button type="submit" class="btn bg-blue">
+                Adicionar produto
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="container-flex start-position">
+            <div class="logo">
+              <img class="logo-icon" src="./geek_images/Logo.svg" />
+              <img src="./geek_images/Alura.png" />
+              <img src="./geek_images/Geek.png" />
+            </div>
+            <div class="link-list">
+              <ul>
+                <li><a herf="#">Quem somos nós</a></li>
+                <li><a herf="#">Politica de privacidade</a></li>
+                <li><a herf="#">Programa fidelidade</a></li>
+                <li><a herf="#">Nossas lojas</a></li>
+                <li><a herf="#">Quero ser franqueado</a></li>
+                <li><a herf="#">Anuncie aqui</a></li>
+              </ul>
+            </div>
+            <div class="footer-form">
+              <h3>Fale conosco</h3>
+              <div class="name">
+                <label for="username">Nome</label>
+                <input type="text" id="username" placeholder="André Lisboa" />
+              </div>
+              <input
+                class="message"
+                type="text"
+                placeholder="Escreva sua mensagem"
+              />
+              <button type="submit" class="btn bg-blue">
+                Enviar menssagem
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <section id="section-author">
+      <div class="container">
+        <p>Desenvolvido por Pedro H. Souza</p>
+        <ul>
+          <li>
+            <a
+              class="social-icons"
+              href="https://github.com/Phses"
+              target="_blank"
+              ><i class="fa-brands fa-github fa-2x"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              class="social-icons"
+              href="https://www.linkedin.com/in/pedro-henrique-souza-e-silva-1aa51115a/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin fa-2x"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>

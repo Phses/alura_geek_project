@@ -1,0 +1,58 @@
+h1 {
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 8px;
+}
+
+.container {
+  margin: 0 16px;
+  height: 100%;
+}
+
+.container .container-flex .container-flex {
+  flex-direction: row-reverse;
+}
+
+.grid-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* HEADER - NAV */
+#header-nav .login {
+  margin: auto;
+}
+
+#header-nav .search-bar {
+  width: 40px;
+}
+
+#header-nav .search-bar input {
+  visibility: hidden;
+}
+
+/* HEADER HERO */
+
+#hero {
+  height: 192px;
+}
+
+#hero .hero-content {
+  margin-top: 78px;
+}
+
+#hero .hero-content p {
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 8px;
+}
+
+/* MAIN PRODUCTS */
+
+#products .products-row {
+  padding-top: 16px;
+}
+
+.grid-container > div:nth-child(5),
+.grid-container > div:nth-child(6) {
+  display: none;
+}
