@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 780px)"
+      href="mobile.css"
+    />
     <link rel="icon" href="./geek_images/favicon.png" />
     <script
       src="https://kit.fontawesome.com/7c08d8d5b2.js"
@@ -26,13 +31,13 @@
             </a>
             <div class="container-flex">
               <div class="search-bar">
-                <input type="text" placeholder="O que deseja encontrar?" />
-                <button type="submit">
+                <input class="search-input" type="text" placeholder="O que deseja encontrar?" />
+                <button class="search-button" type="submit">
                   <img src="./geek_images/Lupa.svg" />
                 </button>
               </div>
               <div class="login">
-                <a class="btn bg-light" href="login_page.html">Login</a>
+                <a class="btn bg-light btn-login" href="login_page.html">Login</a>
               </div>
             </div>
           </div>
@@ -165,5 +170,6 @@
         </ul>
       </div>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
